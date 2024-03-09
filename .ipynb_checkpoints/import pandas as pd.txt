@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Load the uploaded data file
+data_path = r'/Users/maryanhussein/Desktop/Math_Stats/Assesment/assessment_da25.csv'
+data = pd.read_csv(data_path)
+
+# Display the first few rows of the dataframe to understand its structure
+data.head()
